@@ -47,7 +47,24 @@ nav ul {
 
 
 
+.logo {
+  width: 100px;          /* box size (perusa panna value increase pannikko) */
+  height: 100px;
+  border-radius: 50%;    /* circle ஆக்கும் */
+  background-color: #f0f0f0; /* பின்னணி நிறம் */
+  display: flex;         
+  align-items: center;   /* vertical center */
+  justify-content: center; /* horizontal center */
+  font-size: 40px;       /* 🎓 perusa ஆகும் */
+  box-shadow: 0 4px 6px purple; /* optional – shadow */
+ margin: 0 auto;
+ margin-top: 100px;
+}
 
+
+.welcome{
+  font-size: 10rch;
+}
 
 
 .home {
@@ -60,11 +77,12 @@ nav ul {
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;
+  border-radius: 50px;
   margin: 20px auto;
   width: 100%;
   font-size: larger;
   padding: 50px;
+  box-shadow: 0 4px 6px purple; 
 }
 
 .homee {
@@ -88,6 +106,8 @@ nav ul {
   text-align: center;
   width: 300px;
   /* border: 1px solid black; */
+  border-radius: 40px;
+  box-shadow: 0 4px 6px purple;
 
 }
 
@@ -109,6 +129,8 @@ nav ul {
   /* margin: 250px; */
 
   margin: 20px auto;
+  border-radius: 40px;
+  box-shadow: 0 4px 6px purple;
 }
 
 .input {
@@ -116,10 +138,15 @@ nav ul {
   padding: 5px;
 }
 
+.regist{
+  text-align: center;
+  font-size: 7rch;
+}
+
 .add {
   color: purple;
   text-align: center;
-  font-size: 6rch;
+  font-size: 10rch;
 }
 
 .paraa {
@@ -154,7 +181,7 @@ nav ul {
 }
 
 .para {
-  font-size: 4rch;
+  font-size: 7rch;
 }
 
 .error {
@@ -182,7 +209,7 @@ nav ul {
   border-radius: 8px;
   width: 250px;
   /* fixed width for consistency */
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px purple;
   margin: 20px;
   background-color: lavenderblush;
 }
@@ -240,16 +267,17 @@ nav ul {
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;
+  border-radius: 50px;
   margin: 20px auto;
   width: 100%;
   font-size: larger;
   padding: 50px;
+  box-shadow: 0 4px 6px purple;
 }
 
 .key {
   text-align: center;
-  font-size: larger;
+  font-size: 5rch;
 }
 
 .page {
@@ -265,6 +293,7 @@ nav ul {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   background-color: white;
+  box-shadow: 0 4px 6px purple;
 }
 
 .built {
@@ -283,12 +312,13 @@ nav ul {
   width: 100%;
   font-size: larger;
   padding: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px purple;
 }
 
 .builtt {
   display: flex;
   gap: 10px;
+ 
 
 }
 
@@ -301,12 +331,12 @@ nav ul {
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;
+  border-radius: 50px;
   margin: 20px auto;
   width: 100%;
   font-size: larger;
   padding: 30px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px purple;
 }
 
 .fast {
@@ -314,4 +344,27 @@ nav ul {
   text-align: left;
   gap: 20px;
 
+}
+
+.logos{
+
+  width: 50px;          /* box size (perusa panna value increase pannikko) */
+  height: 50px;
+  border-radius: 50%;    /* circle ஆக்கும் */
+  background-color: #f0f0f0; /* பின்னணி நிறம் */
+  display: flex;         
+  align-items: center;   /* vertical center */
+  justify-content: center; /* horizontal center */
+  font-size: 20px;       /* 🎓 perusa ஆகும் */
+  box-shadow: 0 4px 6px purple; /* optional – shadow */
+ margin: 0 auto;
+ /* margin-top: 100px; */
+}
+
+.well{
+  font-size: 10rch;
+}
+
+.whyy{
+  font-size: 6rch;
 }

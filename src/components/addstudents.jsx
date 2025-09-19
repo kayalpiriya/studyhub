@@ -38,10 +38,12 @@ export default function AddStudent() {
   return (
     <>
       <Navbar />
-      <div className="forms">
+      <p className="logo">👤</p>
         <h1 className="add">Add New Student</h1>
         <p className="paraa">Fill in the information below to register a new student</p>
-
+      <div className="forms">
+      
+<h1 className="regist">Student Registration</h1>
         <form onSubmit={handleStudent}>
           <label>Full Name</label><br />
           <input className="input" type="text" name="name" value={form.name} onChange={handleChange} />
@@ -71,7 +73,8 @@ export default function AddStudent() {
         ) : (
           students.map((student, index) => (
             <div key={index} className="card">
-              <h2> Name: {student.name}</h2>
+
+              <h2 >👤 Name: {student.name}</h2>
               <p>Age: {student.age}</p>
               <p>{student.email}</p>
               <button>{student.coures}</button>

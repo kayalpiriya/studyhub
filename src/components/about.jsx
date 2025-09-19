@@ -4,8 +4,9 @@ export default function About() {
     return (
         <>
             <Navbar></Navbar>
+            <p className="logo">🎓</p>
             <div className="about">
-                <h1>About StudyHub</h1>
+                <h1 className="welcome">About StudyHub</h1>
                 <p className="para">A comprehensive student management system built with modern web <br /> technologies for educational institutions.</p>
             </div>
             <div className="key">
@@ -15,37 +16,43 @@ export default function About() {
 
             <div className="page">
                 <div className="aboutt">
+                    <button className="logos">👤</button>
                     <h2>Student Management</h2>
                     <p>Comprehensive student profile management with detailed information tracking.</p>
 
                 </div>
                 <div className="aboutt">
+                <button className="logos">➕</button>
                     <h2>Easy Registration</h2>
                     <p>Streamlined student registration process with form validation.</p>
                 </div>
                 <div className="aboutt">
+                    <button className="logos">🖊️</button>
                     <h2>Profile Updates</h2>
                     <p>Quick and easy editing of student information and details.</p>
                 </div>
                 <br /><br />
                 <div className="aboutt">
+                    <button className="logos">🗑️</button>
                     <h2>Safe Deletion</h2>
                     <p>
                         Secure student record removal with confirmation dialogs.</p>
                 </div>
                 <div className="aboutt">
+                    <button className="logos">🔍</button>
                     <h2>Advanced Search</h2>
                     <p>
                         Powerful search and filtering capabilities across all student data.</p>
                 </div>
                 <div className="aboutt">
+                    <button className="logos">💾</button>
                     <h2>Data Persistence</h2>
                     <p>Reliable data storage with proper state management.</p>
                 </div>
             </div>
 
             <div className="built">
-                <h1>Built With</h1>
+                <h1 className="well">Built With</h1>
                 <p className="para">Modern technologies and best practices</p>
                 <div className="builtt">
                     <button>React</button>
@@ -59,8 +66,8 @@ export default function About() {
                 </div>
             </div>
             <div className="why">
-                <div>
-                    <h1>Why StudyHub?</h1>
+                <div className="whyy">
+                    <h1 >Why StudyHub?</h1>
                     <p>Designed with educators and administrators in mind</p>
                 </div>
                 <div className="fast">
