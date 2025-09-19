@@ -48,44 +48,44 @@ export default function About() {
                 <h1>Built With</h1>
                 <p className="para">Modern technologies and best practices</p>
                 <div className="builtt">
-                <button>React</button>
-                <button>TypeScript</button>
-                <button>React Router</button>
-                <button>Context API</button>
-                <button>Custom Hooks</button>
-                <button>Tailwind Css</button>
-                <button>Lucide Icons</button>
-                <button>Form Validation</button>
+                    <button>React</button>
+                    <button>TypeScript</button>
+                    <button>React Router</button>
+                    <button>Context API</button>
+                    <button>Custom Hooks</button>
+                    <button>Tailwind Css</button>
+                    <button>Lucide Icons</button>
+                    <button>Form Validation</button>
                 </div>
             </div>
             <div className="why">
+                <div>
+                    <h1>Why StudyHub?</h1>
+                    <p>Designed with educators and administrators in mind</p>
+                </div>
+                <div className="fast">
+                    <div>
+                        <h2>Modern Architecture</h2>
+                        <p>Built with React 18, TypeScript, and modern development practices.</p>
+                    </div>
+                    <div>
+                        <h2>Beautiful Design</h2>
+                        <p>Clean, professional UI with consistent design system and animations.</p>
+                    </div>
+                </div>
+                <div className="fast">
+                    <div>
+                        <h2>Fast Performance</h2>
+                        <p>Optimized for speed with efficient state management and lazy loading.</p>
+                    </div>
+                    <div>
+                        <h2>Form Validation</h2>
+                        <p>Comprehensive client-side validation with user-friendly error handling.</p>
+                    </div>
+                </div>
+            </div>
             <div>
-                <h1>Why StudyHub?</h1>
-                <p>Designed with educators and administrators in mind</p>
-            </div>
-            <div className="fast">
-            <div>
-                <h2>Modern Architecture</h2>
-                <p>Built with React 18, TypeScript, and modern development practices.</p>
-            </div>
-            <div>
-                <h2>Beautiful Design</h2>
-                <p>Clean, professional UI with consistent design system and animations.</p>
-            </div>
-            </div>
-            <div className="fast">
-            <div>
-                <h2>Fast Performance</h2>
-                <p>Optimized for speed with efficient state management and lazy loading.</p>
-            </div>
-            <div>
-                <h2>Form Validation</h2>
-                <p>Comprehensive client-side validation with user-friendly error handling.</p>
-            </div>
-            </div>
-            </div>
-            <div>
-       
+
             </div>
         </>
     )

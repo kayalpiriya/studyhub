@@ -1,38 +1,47 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  height: 100%;      /* full screen height */
-  overflow-y: auto;       /* vertical scroll if content overflows */
-  overflow-x: hidden;     /* no horizontal scroll */
+  height: 100%;
+  /* full screen height */
+  overflow-y: auto;
+  /* vertical scroll if content overflows */
+  overflow-x: hidden;
+  /* no horizontal scroll */
 }
 
 
 
 nav {
-  position: fixed;        
+  position: fixed;
   top: 0;
-  width: 100%;           
+  width: 100%;
   display: flex;
-  justify-content: space-between; /* StudyHub left, links right */
-  align-items: center;             /* vertically center items */
-          
-  background-color: #f8f9fa; 
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional */
+  justify-content: space-between;
+  /* StudyHub left, links right */
+  align-items: center;
+  /* vertically center items */
+
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* optional */
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 50px;   /* space between links */
+  gap: 50px;
+  /* space between links */
   margin: 30px;
   padding: 0;
 }
 
-.studyhub{
+.studyhub {
   margin: 30px;
   font-size: 24px;
   font-weight: bold;
-  text-align: left; /* optional, already left by default */
+  text-align: left;
+  /* optional, already left by default */
 }
 
 
@@ -44,26 +53,26 @@ nav ul {
 .home {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  align-items: center;      
-  min-height: 40vh;        
-  background-color: lavenderblush ; 
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background-color: lavenderblush;
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;       
-  margin: 20px auto;        
-  width: 100%; 
-  font-size: larger;  
-  padding: 50px;         
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 100%;
+  font-size: larger;
+  padding: 50px;
 }
 
-.homee{
+.homee {
   text-align: center;
 }
 
 
-.study{
+.study {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -71,49 +80,54 @@ nav ul {
   box-sizing: border-box;
   color: black;
 }
-.stu{
-  
-    background-color: lavenderblush;
-    padding: 20px;
-    text-align: center;
-    width: 300px;
-    /* border: 1px solid black; */
-  
-  }
-  .all{
-    text-align: center;
-  }
 
-  /* .form{
+.stu {
+
+  background-color: lavenderblush;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  /* border: 1px solid black; */
+
+}
+
+.all {
+  text-align: center;
+}
+
+/* .form{
     text-align: center;
     padding: 30px;
   } */
 
-  .forms{
-    align-items: center;
-   background-color: lavenderblush;
-      padding: 80px;
-      text-align: left;
-      width: 500px;
-      /* margin: 250px; */
-     
-      margin: 20px auto;
-    }
-.input{
+.forms {
+  align-items: center;
+  background-color: lavenderblush;
+  padding: 80px;
+  text-align: left;
+  width: 500px;
+  /* margin: 250px; */
+
+  margin: 20px auto;
+}
+
+.input {
   width: 90%;
   padding: 5px;
 }
-.add{
+
+.add {
   color: purple;
   text-align: center;
-font-size: 6rch;
+  font-size: 6rch;
 }
-.paraa{
+
+.paraa {
   text-align: center;
   font-size: 4rch;
 }
 
-.button{
+.button {
   width: 90%;
   padding: 10px;
   font-size: 3rch;
@@ -123,166 +137,181 @@ font-size: 6rch;
 }
 
 
-  .btn{
-   padding: 10px;
-   border: none;
-   border-radius: 7px;
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
   background-color: purple;
   font-size: 3rch;
-  }
+}
 
-  .butt{
-   background-color:  purple;
-   border: none;
-   border-radius: 5px;
-   padding: 10px;
-   font-size: 2rch;
-  }
-  .para{
-    font-size: 4rch;
-  }
-  .error{
-    color: red;
-  }
-  .directory{
-    text-align: center;
-    padding: 70px;
-    font-size: 6rch;
-  }
+.butt {
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 2rch;
+}
+
+.para {
+  font-size: 4rch;
+}
+
+.error {
+  color: red;
+}
+
+.directory {
+  text-align: center;
+  padding: 70px;
+  font-size: 6rch;
+}
 
 
- .user {
+.user {
   display: flex;
-  flex-wrap: wrap; /* allows multiple cards in rows */
-  gap: 20px;       /* space between cards */
+  flex-wrap: wrap;
+  /* allows multiple cards in rows */
+  gap: 20px;
+  /* space between cards */
 }
 
 .card {
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 8px;
-  width: 250px;    /* fixed width for consistency */
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  /* fixed width for consistency */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   background-color: lavenderblush;
 }
 
- .search{
+.search {
   align-items: center;
   margin: 50px;
- }
- 
-.back{
+}
+
+.back {
   text-align: left;
   padding: 90px;
 }
-.new{
+
+.new {
   padding: 20px;
   width: 300px;
-margin-left: 1500px;
-background-color: purple;
-border: none;
-border-radius: 7px;
-font-size: 3rch;
+  margin-left: 1500px;
+  background-color: purple;
+  border: none;
+  border-radius: 7px;
+  font-size: 3rch;
 
 }
 
-.btnn{
+.btnn {
   display: flex;
-  gap: 10px; /* space between buttons */
- 
+  gap: 10px;
+  /* space between buttons */
+
 }
 
-.edit{
-  background-color: purple;
-  border: none;
-  border-radius: 4px;
-  padding: 5px;
-}
-.delete{
+.edit {
   background-color: purple;
   border: none;
   border-radius: 4px;
   padding: 5px;
 }
 
-.about{
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;      
-    min-height: 40vh;        
-    background-color: lavenderblush ; 
-    color: black;
-    text-align: center;
-    gap: 20px;
-    border-radius: 8px;       
-    margin: 20px auto;        
-    width: 100%; 
-    font-size: larger;  
-    padding: 50px;         
-  }
-.key{
+.delete {
+  background-color: purple;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.about {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background-color: lavenderblush;
+  color: black;
+  text-align: center;
+  gap: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 100%;
+  font-size: larger;
+  padding: 50px;
+}
+
+.key {
   text-align: center;
   font-size: larger;
 }
-.page{
+
+.page {
   display: flex;
 }
 
-.aboutt{
- 
+.aboutt {
+
   padding: 10px;
   border-radius: 8px;
-  width: 250px;    /* fixed width for consistency */
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  /* fixed width for consistency */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   background-color: white;
 }
 
-.built{
-  
+.built {
+
   display: flex;
   flex-direction: column;
-  justify-content: center;  
-  align-items: center;      
-  min-height: 40vh;        
- background-color:white;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background-color: white;
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;       
-  margin: 20px auto;        
-  width: 100%; 
-  font-size: larger;  
-  padding: 30px;  
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);       
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 100%;
+  font-size: larger;
+  padding: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-.builtt{
+
+.builtt {
   display: flex;
   gap: 10px;
 
 }
-.why{
+
+.why {
   flex-direction: column;
-  justify-content: center;  
-  align-items: center;      
-  min-height: 40vh;        
- background-color: lavenderblush ;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+  background-color: lavenderblush;
   color: black;
   text-align: center;
   gap: 20px;
-  border-radius: 8px;       
-  margin: 20px auto;        
-  width: 100%; 
-  font-size: larger;  
-  padding: 30px;  
-  box-shadow: 2px 2px 10px rgba(0,0,0,0.1); 
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 100%;
+  font-size: larger;
+  padding: 30px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
-.fast{
+
+.fast {
   display: flex;
   text-align: left;
   gap: 20px;
- 
+
 }

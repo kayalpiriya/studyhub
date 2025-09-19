@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./navbar";
 
 export default function AddStudent() {
-  const [form, setForm] = useState({ name: "", age: "",coures:"" });
+  const [form, setForm] = useState({ name: "", age: "", coures: "" });
   const [error, setError] = useState({});
   const [students, setStudents] = useState([]);
 
@@ -31,7 +31,7 @@ export default function AddStudent() {
     existing.push({ ...form });
     localStorage.setItem("students", JSON.stringify(existing));
     setStudents(existing);
-    setForm({ name: "", age: "", coures:"", email:"" });
+    setForm({ name: "", age: "", coures: "", email: "" });
     setError({});
   };
 
@@ -41,7 +41,7 @@ export default function AddStudent() {
       <div className="forms">
         <h1 className="add">Add New Student</h1>
         <p className="paraa">Fill in the information below to register a new student</p>
-        
+
         <form onSubmit={handleStudent}>
           <label>Full Name</label><br />
           <input className="input" type="text" name="name" value={form.name} onChange={handleChange} />
@@ -63,26 +63,26 @@ export default function AddStudent() {
         </form>
 
 
-</div>
-        <h2 className="all">All Students</h2>
-        <div className="user">
-  {students.length === 0 ? (
-    <h3>No Students Found</h3>
-  ) : (
-    students.map((student, index) => (
-      <div key={index} className="card">
-        <h2> Name: {student.name}</h2>
-        <p>Age: {student.age}</p>
-        <p>{student.email}</p>
-        <button>{student.coures}</button>
       </div>
-    ))
-  )}
-</div>
-    
-        
-        
-     
+      <h2 className="all">All Students</h2>
+      <div className="user">
+        {students.length === 0 ? (
+          <h3>No Students Found</h3>
+        ) : (
+          students.map((student, index) => (
+            <div key={index} className="card">
+              <h2> Name: {student.name}</h2>
+              <p>Age: {student.age}</p>
+              <p>{student.email}</p>
+              <button>{student.coures}</button>
+            </div>
+          ))
+        )}
+      </div>
+
+
+
+
     </>
   );
 }
